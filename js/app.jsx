@@ -27,7 +27,6 @@ class App extends Component {
     render() {
         return (<div>
             <div className="calc-wrapper">
-                <Input input={this.state.input}></Input>
                 <div className="row">
                     <Button handleClick={this.addToInput}>7</Button>
                     <Button handleClick={this.addToInput}>8</Button>
